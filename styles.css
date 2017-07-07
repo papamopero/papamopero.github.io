@@ -1,0 +1,50 @@
+body{margin: 0;
+	padding: 0;
+    background-image: url();}
+
+
+/*styles for nav bar*/
+.nav> ul{ background: #ff0000;
+         width: 100%;
+         list-style: none;
+         margin:0; 
+         padding: 0;
+         overflow: hidden; }
+         
+.nav>ul>li{float:left;}
+
+.nav>ul>li>a{ display: block;
+	          text-decoration: none;
+	          color: #fff;
+	          padding: 16px 12px; }
+
+	          
+	  .nav>ul>li>a:hover, .active{ background: #000;
+	                     color: #ff0000;
+	                     border-bottom: 2px solid #ff0000; }        
+
+.active{background: #c1c1c1;}
+/*styles for content in the index page*/
+.content>h2{text-align: center;}
+
+
+<style>
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.smaller{
+	float:left;
+	height: 150px;
+	margin:15px;
+	width: 45%;
+}
+images{ width: 33%
+       float: left }
